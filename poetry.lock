@@ -640,6 +640,18 @@ dev = ["pre-commit", "tox"]
 
 [[package]]
 category = "dev"
+description = "A rspec format reporter for Python ptest"
+name = "pytest-pspec"
+optional = false
+python-versions = "*"
+version = "0.0.3"
+
+[package.dependencies]
+pytest = ">=3.0.0"
+six = ">=1.11.0"
+
+[[package]]
+category = "dev"
 description = "Python type inferencer"
 marker = "python_version == \"3.7\""
 name = "pytype"
@@ -962,7 +974,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["pathlib2", "contextlib2", "unittest2"]
 
 [metadata]
-content-hash = "ec26c953c45b7ea925ab5c021d85183f5fdb4622c35d26869c402b1f4792cb42"
+content-hash = "6fda8d08fad72650855a0d918e49ebadaf73a1cb77985582eec0768c3b05e489"
 python-versions = "^3.7"
 
 [metadata.files]
@@ -1258,6 +1270,10 @@ pytest-cov = [
 pytest-mock = [
     {file = "pytest-mock-2.0.0.tar.gz", hash = "sha256:b35eb281e93aafed138db25c8772b95d3756108b601947f89af503f8c629413f"},
     {file = "pytest_mock-2.0.0-py2.py3-none-any.whl", hash = "sha256:cb67402d87d5f53c579263d37971a164743dc33c159dfb4fb4a86f37c5552307"},
+]
+pytest-pspec = [
+    {file = "pytest-pspec-0.0.3.tar.gz", hash = "sha256:14274721d4b1ac500a7d133c7a84af26b921dbe942dbf175512ae16225647968"},
+    {file = "pytest_pspec-0.0.3-py2.py3-none-any.whl", hash = "sha256:6302a692fe3ebd5ee6aea6e458f2455ba8768b57d4571118a28d8d5bbdbb57d0"},
 ]
 pytype = [
     {file = "pytype-2020.1.8.tar.gz", hash = "sha256:9312283c9db829f9abaa12bb8cb20a5a3cef6911feb11e837f7d6d996206015f"},
